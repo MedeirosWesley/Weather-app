@@ -1,0 +1,81 @@
+import 'package:weather_app/core/domain/entities/condition.dart';
+
+class Hour {
+  int timeEpoch;
+  String time;
+  double tempC;
+  double tempF;
+  int isDay;
+  Condition condition;
+  double windMph;
+  double windKph;
+  int windDegree;
+  String windDir;
+  int pressureMb;
+  double pressureIn;
+  double precipMm;
+  double precipIn;
+  int snowCm;
+  int humidity;
+  int cloud;
+  double feelslikeC;
+  double feelslikeF;
+  double windchillC;
+  double windchillF;
+  double heatindexC;
+  double heatindexF;
+  double dewpointC;
+  double dewpointF;
+  int willItRain;
+  int chanceOfRain;
+  int willItSnow;
+  int chanceOfSnow;
+  int visKm;
+  int visMiles;
+  double gustMph;
+  double gustKph;
+  int uv;
+  Map<String, double> airQuality;
+  double shortRad;
+  double diffRad;
+
+  Hour({
+    required this.timeEpoch,
+    required this.time,
+    required this.tempC,
+    required this.tempF,
+    required this.isDay,
+    required this.condition,
+    required this.windMph,
+    required this.windKph,
+    required this.windDegree,
+    required this.windDir,
+    required this.pressureMb,
+    required this.pressureIn,
+    required this.precipMm,
+    required this.precipIn,
+    required this.snowCm,
+    required this.humidity,
+    required this.cloud,
+    required this.feelslikeC,
+    required this.feelslikeF,
+    required this.windchillC,
+    required this.windchillF,
+    required this.heatindexC,
+    required this.heatindexF,
+    required this.dewpointC,
+    required this.dewpointF,
+    required this.willItRain,
+    required this.chanceOfRain,
+    required this.willItSnow,
+    required this.chanceOfSnow,
+    required this.visKm,
+    required this.visMiles,
+    required this.gustMph,
+    required this.gustKph,
+    required this.uv,
+    required this.airQuality,
+    required this.shortRad,
+    required this.diffRad,
+  });
+}

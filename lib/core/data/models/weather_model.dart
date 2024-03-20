@@ -7,11 +7,11 @@
 library;
 
 import 'package:weather_app/core/domain/entities/clouds.dart';
-import 'package:weather_app/core/domain/entities/location_information.dart';
+import 'package:weather_app/core/domain/entities/location.dart';
 import 'package:weather_app/core/domain/entities/main_weather_data.dart';
 import 'package:weather_app/core/domain/entities/rain.dart';
 import 'package:weather_app/core/domain/entities/system.dart';
-import 'package:weather_app/core/domain/entities/weather_condition.dart';
+import 'package:weather_app/core/domain/entities/weather.dart';
 import 'package:weather_app/core/domain/entities/wind.dart';
 
 class WeatherModel {
